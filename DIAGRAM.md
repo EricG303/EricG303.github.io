@@ -1,7 +1,8 @@
-...MERMAID
-FLOWCHART TD
-A[WAKE UP]-->|LEADS TO|B(THE SHOWER)
-B-->|THEN COMES|C{BREAKFAST}
-C-->|NEXT UP|D(DAYCARE)
-D-->|OR|E[WORK]
-D-->|OR|F[WORKOUT]
+```mermaid
+flowchart TD
+A[WAKE UP]-->|Leads To|B(THE SHOWER)
+B-->|Then Comes|C{BREAKFAST}
+C-->|Next Up|D(DAYCARE)
+D-->|Or|E[WORK]
+D-->|Or|F[WORKOUT]
+```
